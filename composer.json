@@ -1,0 +1,12 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "illuminate/database": "^5.8",
+        "aura/router": "^3.1",
+        "zendframework/zend-diactoros": "^2.2"
+    }
+}
