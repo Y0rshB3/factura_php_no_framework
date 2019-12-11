@@ -7,6 +7,6 @@
     <title>404</title>
 </head>
 <body>
-    Pagína no encontrada
+    Pagína no encontrada.
 </body>
 </html>
