@@ -13,7 +13,7 @@ $matchRoutes = $routerContainer->getMatcher(); // Realizar match con las rutas i
 $route = $matchRoutes->match($request);
 
 if(!$route){
-    require BASENAME.'\Views\PagesErrors\404.php';
+    require BASENAME.'\Views\PagesErrors\404.php'; // Ruta defecto cuando no exista url
 }else{
     require $route->handler; // Enrutador
 }
